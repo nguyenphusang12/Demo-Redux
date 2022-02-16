@@ -1,0 +1,44 @@
+.root {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    background-color: #cc5353;
+}
+
+.form {
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.24);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+}
+
+.formGroup {
+    width: 100%;
+}
+
+.label {
+    display: block;
+    color: white;
+    font-size: 20px;
+    margin: 16px 0;
+}
+
+.inputForm {
+    height: 40px;
+    width: 100%;
+}
+
+.btnLogin {
+    width: 100px;
+    height: 40px;
+    margin: 16px 0;
+}
